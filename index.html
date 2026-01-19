@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Herbal Garden | Login</title>
+  <link rel="stylesheet" href="src/css/auth.css">
+</head>
+<body>
+
+  <!-- SPLINE VIEWER SCRIPT -->
+  <script type="module"
+    src="https://unpkg.com/@splinetool/viewer@1.12.36/build/spline-viewer.js">
+  </script>
+
+  <!-- SPLINE BACKGROUND -->
+  <div class="spline-bg">
+    <spline-viewer
+      url="https://prod.spline.design/8dyvU-ZG9QGMmeVc/scene.splinecode">
+    </spline-viewer>
+  </div>
+
+  <!-- TOP LEFT LOGO + TITLE -->
+  <div class="top-left">
+    <img src="images/logo.jpg" alt="Logo" class="logo">
+    <span class="site-title">Virtual Herbal Garden</span>
+  </div>
+
+  <!-- LOGIN CARD -->
+  <div class="auth-box">
+    <h2>Welcome Back 🌿</h2>
+    <p class="subtitle">Login to your account</p>
+
+    <input id="username" type="text" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+    <p class="signup-text">Don't have an account? <span onclick="signup()">Sign up</span></p>
+  </div>
+
+  <!-- BOTTOM LEFT TEXT -->
+  <div class="bottom-left-text">
+    <p>Welcome to Your Virtual Herbal Garden
+      Discover the wonders of nature from the comfort of your home. Explore a rich collection of herbs, learn about their uses, and experience the beauty and benefits of herbal remedies through our interactive virtual garden. Whether you’re a curious beginner or a passionate herbalist, your journey into the world of herbs starts here.
+      
+      Grow your knowledge. Cultivate wellness. Embrace nature. 🌱</p>
+  </div>
+
+  <!-- AUTH SCRIPT -->
+  <script src="src/js/auth.js"></script>
+</body>
+</html>
